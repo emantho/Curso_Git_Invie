@@ -3,17 +3,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invie</title>
-    <style>
+    <style media="screen">
         body{
             margin: 0;
             border: 10px solid #192b36;
         }
         img{
             max-width: 100%;
+            /* vertical-align: top; */
+            display: block;
+        }
+        img#responsive {
+            display: none;
+        }
+        @media screen and (max-width: 768px){
+            img#responsive {
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
+    <img src="./img/invie-responsive.png" alt="responsive" id="responsive">
     <img src="./img/header.jpg" alt="header">
     <img src="./img/hero.jpg" alt="hero">
     <img src="./img/acustica.jpg" alt="acustica">
