@@ -1,3 +1,4 @@
-# Curso_Git_Invie
-Curso de Git y GitHub en Apps.co
-Aprendiendo con la practica a utilizar Git y Github.
+# invie
+Las guitarras más locas
+
+http://leonidasesteban.github.io/invie-responsive/
